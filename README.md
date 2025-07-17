@@ -2,6 +2,17 @@
 🚀 FormEase is a cross-platform React Native (Expo) app that lets you create, view, edit, filter, and export form submissions effortlessly.
 ✅ Works seamlessly on mobile & web, with Excel export support!
 
+## 🖼️ Output  
+
+Here’s how the app looks:  
+
+
+<p align="center">
+  <img src="./assets/images/image1.png" width="300" />
+  <img src="./assets/images/image2.png" width="300" />
+</p>
+
+
 ## ✨ Features
 ✅ Add & Manage Forms – Submit and store user details
 ✅ Filter Records – By State & Gender
