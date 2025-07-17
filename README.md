@@ -9,6 +9,7 @@ Here’s how the app looks:
 
 <p align="center">
   <img src="./assets/images/image1.png" width="300" />
+  <img src="./assets/images/image3.png" width="300" />
   <img src="./assets/images/image2.png" width="300" />
 </p>
 
