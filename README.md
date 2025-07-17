@@ -1,50 +1,86 @@
-# Welcome to your Expo app 👋
+## 📋 FormEase
+🚀 FormEase is a cross-platform React Native (Expo) app that lets you create, view, edit, filter, and export form submissions effortlessly.
+✅ Works seamlessly on mobile & web, with Excel export support!
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+## ✨ Features
+✅ Add & Manage Forms – Submit and store user details
+✅ Filter Records – By State & Gender
+✅ Edit / Delete Records – Update or remove data easily
+✅ Excel Export – Download submissions as .xlsx
+✅ Cross-Platform – Works on Android, iOS & Web
+✅ Responsive UI – Clean and user-friendly design
 
-## Get started
+## 🖼️ Preview
+Here’s how FormEase looks:
 
-1. Install dependencies
 
-   ```bash
-   npm install
-   ```
+## 🛠️ Tech Stack
+⚛️ React Native + Expo
 
-2. Start the app
+📦 expo-router for navigation
 
-   ```bash
-   npx expo start
-   ```
+🗄 React Hooks for state management
 
-In the output, you'll find options to open the app in a
+📑 XLSX for Excel generation
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+📲 expo-sharing & FileSystem for file export
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+🎨 React Native SafeAreaView for adaptive UI
 
-## Get a fresh project
 
-When you're ready, run:
+## 🚀 Getting Started
+✅ 1. Clone the Repository
+bash
+Copy
+Edit
+git clone https://github.com/Bhuvnesh-Trivedi/FormEase.git
+cd FormEase
 
-```bash
-npm run reset-project
-```
+✅ 2. Install Dependencies
+bash
+Copy
+Edit
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+npm install
+✅ 3. Run on Mobile/Web
+📱 Mobile (Expo Go)
 
-## Learn more
 
-To learn more about developing your project with Expo, look at the following resources:
+bash
+Copy
+Edit
+npx expo start
+🌐 Web
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
 
-## Join the community
+bash
+Copy
+Edit
+npx expo start --web
 
-Join our community of developers creating universal apps.
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+## 📂 Project Structure
+bash
+Copy
+Edit
+FormEase/
+ ├── app/
+ │   ├── index.tsx     # Form Page
+ │   ├── data.tsx      # View, Filter & Export Data
+ │   └── _layout.tsx   # Expo Router Layout
+ ├── package.json
+ ├── README.md
+ └── ...
+
+## 📤 Export Excel
+✅ Web: Downloads directly in the browser
+✅ Mobile: Saves to device & opens Share dialog
+
+
+## 👨‍💻 Author
+Bhuvnesh Trivedi
+💼 GitHub | 🌐 Portfolio
+
+
+## ⭐ Contribute
+If you like FormEase, don’t forget to ⭐ star this repo on GitHub!
